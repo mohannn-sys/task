@@ -7,6 +7,8 @@ def fibonacci(n):
          return fibonacci(n-1)+fibonacci(n-2)
          
          
-n = 5
+n = 5 
+# It prints first 5 fibonacci numbers
 for i in range(n):
     print(fibonacci(i))
+    print("\n")
